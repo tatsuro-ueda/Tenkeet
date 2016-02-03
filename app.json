@@ -2,5 +2,5 @@
   "name": "IFTTT server",
   "description": "Accept MakerChannel request and send gmail",
   "repository": "https://github.com/weed/heroku-ifttt-p160203",
-  "keywords": ["node", "express", "static", "ifttt", "makerchannel"],
+  "keywords": ["node", "express", "static", "ifttt", "makerchannel"]
 }
