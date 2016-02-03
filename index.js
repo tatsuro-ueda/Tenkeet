@@ -1,10 +1,15 @@
+//2016-02-03
+//This code has written by Shogo Tanaka in 1ft-seabass(http://www.1ft-seabass.jp)
+//http://www.1ft-seabass.jp/memo/2015/07/01/ifttt-maker-channel-heroku-nodejs/
+//Heroku button has added by Tatsuro Ueda in http://weed.nagoya
+
 var express = require('express');
 var request = require('request');
 var app = express();
 var bodyParser = require('body-parser');
  
 var IFTTT_EVENT_NAME = "MyEvent001";  // イベント名
-var IFTTT_SECURITY_KEY = "                 ";  // さきほどのIFTTTのセキュリティキー
+var IFTTT_SECURITY_KEY = "                 ";  // IFTTTのセキュリティキー
  
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
