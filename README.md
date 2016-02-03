@@ -10,6 +10,8 @@ http://www.1ft-seabass.jp/memo/2015/07/01/ifttt-maker-channel-heroku-nodejs/
 
 Heroku button has added by Tatsuro Ueda in http://weed.nagoya
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Node.js on Heroku
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
