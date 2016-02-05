@@ -40,7 +40,7 @@ app.post('/', function(req, res){
             form: {
                 value1:req.body.location,
                 value2:forecast.today.text,
-                value3:req.body.message
+                value3:req.body.message + ' - Tenkeet'
             },
             json: true
         };
