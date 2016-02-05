@@ -1,6 +1,6 @@
 {
-  "name": "IFTTT server",
-  "description": "Accept MakerChannel request and send gmail",
-  "repository": "https://github.com/weed/heroku-ifttt-p160203",
-  "keywords": ["node", "express", "static", "ifttt", "makerchannel"]
+  "name": "Tenkeet server",
+  "description": "Add weather information and return message to IFTTT",
+  "repository": "https://github.com/weed/Tenkeet",
+  "keywords": ["ifttt", "makerchannel", "weather", "twitter"]
 }
