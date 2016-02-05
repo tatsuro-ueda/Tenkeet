@@ -1,43 +1,21 @@
-# ifttt-maker-channel
+# Tenkeet
 
-## 2016-02-03
+IFTTTと連動して、指定した都市のその日の天気をメッセージに付加するWebサービスです。
 
-This code has written by Shogo Tanaka in [1ft-seabass](http://www.1ft-seabass.jp)
+## セットアップ
 
-You can read his article in below page:
-
-http://www.1ft-seabass.jp/memo/2015/07/01/ifttt-maker-channel-heroku-nodejs/
-
-Heroku button has added by Tatsuro Ueda in http://weed.nagoya
+まず下のボタンを押し、
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Node.js on Heroku
+アップロードしたアプリのindex.jsにIFTTTの秘密キーを埋め込むだけです。
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+## 謝辞
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+このコードは[1ft-seabass](http://www.1ft-seabass.jp)のShogo Tanakaさんが書かれたNode.jsアプリケーションを改造させていただいたものです。
 
-## Running Locally
+## 詳細
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+以下の記事を参照して下さい
 
-```sh
-$ git clone git@github.com:weed/ifttt-maker-channel-p160203.git # or clone your own fork
-$ cd ifttt-maker-channel-p160203
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[【名古屋：雨】そのときの天気情報を付けてツイートする - Weed.nagoya｜物理教育アプリつくってます](http://www.weed.nagoya/entry/2016/02/06/003351)
